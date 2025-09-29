@@ -1,0 +1,165 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kwality Wall's - Delicious Ice Creams</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: #fff8f0;
+      color: #333;
+    }
+    header {
+      background: #ff6f61;
+      color: #fff;
+      padding: 20px 40px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.1rem;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1588776814546-40c0a9e20538?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aWNlJTIwY3JlYW18ZW58MHx8MHx8&ixlib=rb-4.0.3&q=80&w=1080') no-repeat center/cover;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+    }
+    .hero h2 {
+      font-size: 3rem;
+      background: rgba(0,0,0,0.4);
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+    .products {
+      padding: 50px 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+    .product-card {
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s, box-shadow 0.3s;
+      cursor: pointer;
+      text-align: center;
+    }
+    .product-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+    }
+    .product-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .product-card h3 {
+      margin: 15px 0 5px;
+      font-size: 1.3rem;
+    }
+    .product-card p {
+      padding: 0 10px 15px;
+      font-size: 0.95rem;
+      color: #555;
+    }
+    .cta {
+      text-align: center;
+      margin: 50px 0;
+    }
+    .cta button {
+      background: #ff6f61;
+      color: #fff;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.1rem;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .cta button:hover {
+      background: #e65b50;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #333;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Kwality Wall’s</h1>
+    <p>Delicious Ice Creams, Cones, Sundaes & Cakes</p>
+  </header>
+
+  <section class="hero">
+    <h2>Treat Yourself Today!</h2>
+<img src="C:\Users\asus\OneDrive\Desktop\k.png"  alt="icecream" height="250" width="200">
+  </section>
+
+  <section class="products">
+    <div class="product-card">
+      <img src="C:\Users\asus\OneDrive\Desktop\cones.jpg" alt="ice cream cone">     
+ <h3>Ice Cream Cones</h3>
+      <p>Creamy and crunchy cones in multiple flavors.</p>
+    </div>
+
+    <div class="product-card">
+      <img src="C:\Users\asus\OneDrive\Desktop\sundays.jpg" alt="ice cream sundae">    
+  <h3>Sundaes</h3>
+      <p>Delightful sundaes with toppings of your choice.</p>
+    </div>
+
+    <div class="product-card">
+      <img src="C:\Users\asus\OneDrive\Desktop\kasatacake.jpg" alt="ice cream cake">
+      <h3>Cakes</h3>
+      <p>Delicious ice cream cakes for every occasion.</p>
+    </div>
+<div class="product-card">
+  <img src="C:\Users\asus\OneDrive\Desktop\butterscotch.jpg" alt="butterscotch ice cream">
+  <h3>butterscotch</h3>
+  <p>classic taste</p>
+</div>
+<div class="product-card">
+  <img src="C:\Users\asus\OneDrive\Desktop\oreo.jpg" alt="Ice Cream tub">
+  <h3>Ice Cream Cones</h3>
+  <p>Creamy and crunchy cones in multiple flavors.</p>
+</div>
+
+    <div class="product-card">
+      <img src="C:\Users\asus\OneDrive\Desktop\desserttub.jpg" alt="desserts">
+      <h3>Desserts</h3>
+      <p>Yummy ice cream desserts to satisfy your cravings.</p>
+    </div>
+  </section>
+
+  <div class="cta">
+    <button onclick="alert('Order your favorite ice cream now!')">Order Now</button>
+  </div>
+
+  <footer>
+    &copy; 2025 Kwality Wall's. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
